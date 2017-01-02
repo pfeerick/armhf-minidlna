@@ -1,4 +1,4 @@
-FROM forumi0721alpinearmhf/alpine-armhf-base:latest
+FROM forumi0721/alpine-armhf-base:latest
 
 MAINTAINER stonecold <forumi0721@gmail.com>
 

@@ -7,7 +7,7 @@
 #### Description
 * Distribution : [Alpine Linux](https://alpinelinux.org/)
 * Architecture : armhf
-* Base Image   : [forumi0721alpinearmhf/alpine-armhf-base](https://hub.docker.com/r/forumi0721alpinearmhf/alpine-armhf-base/)
+* Base Image   : [forumi0721/alpine-armhf-base](https://hub.docker.com/r/forumi0721/alpine-armhf-base/)
 * Appplication : [ReadyMedia](https://sourceforge.net/projects/minidlna/)
     - ReadyMedia (formerly known as MiniDLNA) is a simple media server software, with the aim of being fully compliant with DLNA/UPnP-AV clients.
 
