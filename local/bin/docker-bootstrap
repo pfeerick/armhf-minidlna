@@ -27,6 +27,10 @@ if [ ! -s /conf.d/minidlna/minidlna.conf ]; then
 		echo "media_dir=${dir}" >> /tmp/minidlna.conf
 	done
 
+	if [ ! -z "${NETWORK_INTERFACE}" ]; then
+		sed -i -e "s/^#\?\(network_interface\)=.*/\1=${NETWORK_INTERFACE}/g" /tmp/minidlna.conf
+	fi
+
 	cat /tmp/minidlna.conf > /conf.d/minidlna/minidlna.conf
 	rm -rf /tmp/minidlna.conf
 fi

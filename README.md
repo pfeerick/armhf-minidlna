@@ -45,6 +45,7 @@ docker run -d \
 |--------------------|--------------------------------------------------|
 | FRIENDLY_NAME      | the name that shows up on your clients. (default : DLNA Server) |
 | MEDIA_DIR          | Directory you want scanned. (default : /data)    |
+| NETWORK_INTERFACE  | Network interface for broadcast                  |
 
 
 #### Volumes
