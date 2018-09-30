@@ -1,6 +1,6 @@
 FROM forumi0721/alpine-armhf-base:latest
 
-MAINTAINER stonecold <forumi0721@gmail.com>
+MAINTAINER pfeerick <peter.feerick@gmail.com>
 
 COPY local/. /usr/local/
 
